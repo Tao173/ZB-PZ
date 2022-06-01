@@ -2,22 +2,28 @@
 
 使用E18-MS1和ESP12F的双模块接入电路。智能家居从WiFi协议迁移到ZB。
 
-## To Do
+## To Do List
 
 * [X] 三路光耦隔离继电器设计。
 * [X] 电路验证。
 * [X] 双芯片固件设计。（第一版没有加入通用PCB）
 * [ ] 墨水屏支持。
 * [X] ESP和ZB双芯片控制板设计。温湿度模块使用shtc3/bme280。
-* [ ] 外壳3D打印文件设计。
-
+* [X] 外壳3D打印文件设计。
+* [X] 多路培正模块连接电路。
+* [X] 空开自动上电电路。
 #### 主控模块：
 
-E18-MS1	BMP280
+E18-MS1	BMP280更换为ds18b20减小传感器体积。
 
-<img src="https://raw.githubusercontent.com/Tao173/Zigbee-Pzem/main/images/pzem1.png" >
+![image](images/pzem1.png)
+![image](images/pzem.png)
+![image](images/正面电路.png)
+![image](images/侧面.png)
 
-<img src="https://raw.githubusercontent.com/Tao173/Zigbee-Pzem/main/images/pzem.png" >
+#### 3D外壳
+![image](images/3D.png)
+![image](images/3D2.png)
 
 #### 继电器模块：
 
